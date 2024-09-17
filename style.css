@@ -104,6 +104,7 @@
     max-width: 100%;
     margin: 74px 152px 90px 148px;
     padding: 80px 97px;
+    border-radius: 16px;
 }
 .Why-Web-Development-only-text1{
     text-align: left;
@@ -253,14 +254,17 @@
 .my-current-target-list-html{
     background-color: rgba(255, 76, 30, 5%);
     padding: 40px;
+    border-radius: 16px;
 }
 .my-current-target-list-css{
     background-color: rgba(0, 76, 232, 5%);
     padding: 40px;
+    border-radius: 16px;
 }
 .my-current-target-list-js{
     background-color: rgba(255, 223, 0, 5%);
     padding: 40px;
+    border-radius: 16px;
 }
 .my-current-target-list h5{
     font-size: 24px;
