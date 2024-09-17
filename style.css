@@ -2,3 +2,421 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* ------- Universal Font & Share Styles------------ */
+.azeret-mono-font{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;    
+    font-style: normal;
+  }
+
+  /* ----------------------------------- */
+
+  /* ----------Header Style--------- */
+  .download-resume{
+    display: flex;
+    gap: 768px;
+    color: #0D1321;    
+    justify-content: center;
+    align-items: center;
+    margin: 38px 150px;
+  }
+  .download-resume-name h4{
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .download-resume-btn button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 17px 24px;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 80%;
+  }
+
+  /* ----------- Banner----------- */
+  .banner{
+    background-image: url(assets/Hero-bg.png);
+    position: relative;
+    background-size: cover;    
+    align-items: center;
+    justify-content: center;    
+    background-position: center;
+    text-align: center;
+    max-width: 100%;    
+    height: 652px;
+    background-repeat: no-repeat;
+  }
+  .banner:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;    
+    width:100%;
+    height:100%;
+}
+
+.banner-img img{
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.banner-text-1{
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 68px;
+    color: #0D1321;
+    margin-left: 224px;
+    margin-right: 224px;
+}
+
+.banner-text-2{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-btn button{
+    background-color: #0D1321;
+    border-radius: 8px;
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* -------Why-Web-Development?------------- */
+
+/* ------Part1-------------- */
+
+.Why-Web-Development{
+    background-color: rgba(13, 31, 33, 2%);
+    position: relative;
+    background-size: cover;    
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 74px 152px 90px 148px;
+    padding: 80px 97px;
+}
+.Why-Web-Development-only-text1{
+    text-align: left;
+}
+.Why-Web-Development-text1 h4{
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.Why-Web-Development-text1 p{
+    font-size: 16px;    
+    color: #0D1321;
+    line-height: 26px;
+    opacity: 70%;
+    margin-bottom: 48px;
+}
+
+.Why-Web-Development-text2{
+    display: flex;
+    gap: 98px;
+    background-image: linear-gradient(to right, rgba(255,255,255,100%), rgba(255,255,255,0%));
+    padding: 48px;
+    border-radius: 16px;
+}
+.Why-Web-Development-only-text1 h5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1321;
+    opacity: 70%;
+    margin-bottom: 16px;    
+}
+
+.Why-Web-Development-only-text1 p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;    
+}
+
+.Why-Web-Development-text2-btn button{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1321;
+    opacity: 70%;
+    padding: 12px 20px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    border-width: 1px;
+}
+
+/* ----------part2---------- */
+.Why-Web-Development-text3{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 98px;
+    background-image: linear-gradient(to left, rgba(255,255,255,100%), rgba(255,255,255,0%));
+    padding: 48px;
+    border-radius: 16px;
+}
+.Why-Web-Development-only-text3-3 h5{
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1321;
+    opacity: 70%;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.Why-Web-Development-only-text3-3 p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;    
+    margin-bottom: 32px;
+}
+.Why-Web-Development-text3-btn button{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1321;
+    opacity: 70%;
+    padding: 12px 20px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    border-width: 1px;
+}
+
+/* --------- My Inspiration------------- */
+
+.My-Inspiration{
+    text-align: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.My-Inspiration-text h3{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+.My-Inspiration-text p{
+    font-size: 16px;    
+    color: #0D1321;
+    line-height: 26px;
+    opacity: 70%;
+    margin-bottom: 48px;
+}
+.My-Inspiration-video iframe{
+    border: rgba(13, 19, 33, 20%) solid 2px;
+    padding: 32px;
+    border-radius: 16px;    
+}
+
+/* ---------- My Target List---------- */
+.target-list{
+    margin: 151px 150px 49px 150px;
+}
+
+.my-current-target{
+    text-align: center;
+}
+
+.my-current-target-text h4{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+}
+
+.my-current-target-text p{
+    font-size: 16px;    
+    color: #0D1321;
+    line-height: 26px;
+    opacity: 70%;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.my-current-target-list{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+.my-current-target-list-html{
+    background-color: rgba(255, 76, 30, 5%);
+    padding: 40px;
+}
+.my-current-target-list-css{
+    background-color: rgba(0, 76, 232, 5%);
+    padding: 40px;
+}
+.my-current-target-list-js{
+    background-color: rgba(255, 223, 0, 5%);
+    padding: 40px;
+}
+.my-current-target-list h5{
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1321;
+    font-weight: bolder;
+}
+.my-current-target-list p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;
+    margin-bottom: 24px;
+}
+.my-current-target-list a{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: bold;    
+}
+
+/* ---------- My Next Target--------- */
+.my-next-target{
+    margin-top: 111px;
+}
+
+.my-next-target-text h4{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.my-next-target-text p{
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 48px;
+    line-height: 26px;
+    opacity: 70%;
+}
+.my-next-target-list h5{
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1321;
+    font-weight: bolder;
+}
+.my-next-target-list p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.my-next-target-list a{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: bold;
+}
+.my-next-target-list-NodeJS{
+    margin-top: 24px;
+}
+.my-next-target-list-MongoDB{
+    margin-top: 24px;
+}
+
+/* -----Share Style------- */
+.my-next-target-list-share-style-border{
+    border: rgba(13, 19, 33, 15%) solid 1px;
+    border-radius: 16px;
+    padding: 40px; 
+}
+.my-next-target-list-share-style-display{
+    display: flex;
+    gap: 24px;
+    align-items: center;       
+}
+
+
+/* ------------ I need Support---------- */
+
+.I-Need-Support-img-text{
+    background-image: linear-gradient(rgba(13,19,33,100%), rgba(13,19,33,40%), rgba(13,19,33,20%)), url(assets/handshake.jpg);
+    position: relative;    
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    text-align: center;    
+    height: 313px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 16px;
+    background-size: auto;
+}
+
+.I-Need-Support-text h2{
+    padding-top: 64px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.I-Need-Support-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-left: 267px;
+    margin-right: 267px;
+    opacity: 70%;
+}
+
+.I-Need-Support-form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+.I-Need-Support-form input{
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 40%);
+    width: 548px;
+    height: 57px;
+    padding-left: 20px;
+}
+.I-Need-Support-form button{
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:#0D1321;
+    padding: 17px 20px;
+}
+
+/* ---------- Footer---------- */
+.footer-text-img{
+    margin-top: 80px;    
+    background-color: rgba(13, 19, 33, 3%);
+    background-size: auto;
+}
+.footer-text h5{
+    margin-left: 150px;
+}
+.footer-img{
+    margin-right: 150px;
+    display: flex;
+    gap: 20px;
+}
+.footer-text-img1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
